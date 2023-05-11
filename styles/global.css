@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  @apply max-w-[1340px] mx-auto py-10;
+}
+.navbarContainer {
+  @apply flex flex-row justify-between items-center;
+}
+.logo {
+  @apply font-semibold text-xl;
+}
+.menus {
+  @apply flex flex-row gap-16;
+}
+.lists {
+  @apply list-none font-semibold text-xl cursor-pointer;
+}
+.authButtons {
+  @apply flex flex-row gap-10 font-semibold text-xl;
+}
+.register {
+  @apply border-2 py-3 px-4 rounded-full hover:bg-[#F3F7F5];
+}
