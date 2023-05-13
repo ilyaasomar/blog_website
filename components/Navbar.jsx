@@ -1,5 +1,7 @@
 // import "@styles/globalcss";
 
+import Image from "next/image";
+
 const Navbar = () => {
   return (
     <>
@@ -7,15 +9,16 @@ const Navbar = () => {
         {/* container section */}
         {/* logo */}
         <div className="logo">
-          <h2>Logo</h2>
+          {/* <h2>Blogpea</h2> */}
+          <Image src="/assets/blogger.png" width={80} height={80} />
         </div>
         {/* menus */}
         <div className="menus">
           <li className="lists">Home</li>
-          <li className="lists">About Us</li>
-          <li className="lists">Pricing</li>
+          {/* <li className="lists">About Us</li> */}
+          <li className="lists">Posts</li>
           <li className="lists">Blog</li>
-          <li className="lists">Contact</li>
+          {/* <li className="lists">Contact</li> */}
         </div>
         {/* login & register */}
         <div className="authButtons">

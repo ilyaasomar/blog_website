@@ -6,8 +6,8 @@ import TopPosts from "@components/TopPosts";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <TopPosts />
+      {/* <Hero /> */}
+      {/* <TopPosts /> */}
       <AllPosts />
       <Footer />
     </>

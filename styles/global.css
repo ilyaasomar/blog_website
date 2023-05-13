@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .app {
-  @apply max-w-[1340px] mx-auto py-10;
+  @apply max-w-[1340px] mx-auto py-10 md:py-5 md:px-24;
 }
 .navbarContainer {
   @apply flex flex-row justify-between items-center;
@@ -22,5 +22,5 @@
   @apply flex flex-row gap-10 font-semibold text-xl;
 }
 .register {
-  @apply border-2 py-3 px-4 rounded-full hover:bg-[#F3F7F5];
+  @apply border-2 py-3 px-6 rounded-full hover:bg-[#F3F7F5];
 }

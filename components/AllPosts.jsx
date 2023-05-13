@@ -25,13 +25,13 @@ const AllPosts = () => {
             className="object-contain rounded-3xl"
           />
           <div className="mt-3 flex flex-col gap-5">
-            <p className="font-normal text-2xl">Marketing</p>
-            <h3 className="text-2xl font-bold">
+            <p className="font-normal text-xl text-gray-700">Marketing</p>
+            <h3 className="text-xl font-bold text-gray-700">
               Your company might be in need a socail media audit
             </h3>
-            <div className="flex flex-row justify-between">
-              <p className="font-semibold text-xl">By Ilyaas Omar</p>
-              <p className="font-semibold text-x">May 13, 2023</p>
+            <div className="flex flex-row justify-between items-center">
+              <p className="font-semibold text-gray-400 text-xl">By Ilyaas Omar</p>
+              <p className="font-semibold text-gray-400 text-md">May 13, 2023</p>
             </div>
           </div>
         </div>
