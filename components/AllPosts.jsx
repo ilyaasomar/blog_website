@@ -14,7 +14,7 @@ const AllPosts = () => {
       </div>
 
       {/* posts */}
-      <div className="grid grid-cols-3 mt-24 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 mt-24 gap-20 px-5 md:px-0">
         {/*  */}
         <div className="flex flex-col p-5 rounded-[25px] border-2 border-gray-200 drop-shadow-md">
           <Image

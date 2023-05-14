@@ -7,13 +7,13 @@
   @apply max-w-[1340px] mx-auto py-10 md:py-5 md:px-24;
 }
 .navbarContainer {
-  @apply flex flex-row justify-between items-center;
+  @apply flex flex-row justify-between items-center mt-5 relative;
 }
 .logo {
-  @apply font-semibold text-xl;
+  @apply font-semibold text-xl pl-3;
 }
 .menus {
-  @apply flex flex-row gap-16;
+  @apply hidden md:flex flex-row gap-16;
 }
 .lists {
   @apply list-none font-semibold text-xl cursor-pointer;
@@ -21,6 +21,12 @@
 .authButtons {
   @apply flex flex-row gap-10 font-semibold text-xl;
 }
-.register {
-  @apply border-2 py-3 px-6 rounded-full hover:bg-[#F3F7F5];
+.login {
+  @apply md:border-2 py-3 px-6 rounded-full hover:bg-[#F3F7F5];
+}
+.mobile_navigation {
+  @apply flex items-center pr-3 md:hidden;
+}
+.dropdown {
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
 }
